@@ -1,0 +1,383 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid rgb(120, 116, 116);
+  padding: 18px 0px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+}
+
+.navbar a {
+  padding: 0px 18px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* .benefits{
+    margin: 100px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+
+}
+.box1{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5%;
+    display: flex;
+    margin-right: 18px;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    font-size: 18px; 
+}
+.box1 img{
+    width: 110px;
+}
+.box1 h2{
+    color: rgb(19, 19, 123);
+}
+.box2 img{
+    width: 110px;
+}
+.box1:hover{
+    
+    border: none;
+    border-radius: 8px;
+    box-shadow:0px 10px  15px rgb(173, 167, 167);
+}
+.box2{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    font-size: 18px;
+}
+.box2 h2{
+    color: rgb(19, 19, 123);
+}
+
+
+.box2:hover{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 10px  15px rgb(173, 167, 167);
+
+} */
+.twobox {
+  display: flex;
+  justify-content: space-around;
+  margin: 130px;
+}
+
+.box1 {
+  background-image: url("./insurance\ \(2\).jpeg");
+  height: 40vh;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  width: 100%;
+  border: rgb(97, 97, 97) solid 1px;
+  border-radius: 15px;
+  margin-right: 10px;
+
+}
+
+.heading h1 {
+  color: rgb(95, 30, 156);
+  margin: 40px 25px;
+  font-weight: 600;
+}
+
+.paragraph p {
+  color: rgb(43, 42, 42);
+  margin: 40px 25px;
+  font-weight: 500;
+}
+
+.box2 {
+  background-image: url("./mutual.jpeg");
+  height: 40vh;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 46%;
+  width: 100%;
+  border: rgb(95, 95, 95) solid 1px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.box1:hover {
+  border: rgb(255, 253, 253) solid 1px;
+  box-shadow: 0px 12px 20px rgb(85, 84, 84);
+}
+
+.box2:hover {
+  border: rgb(255, 253, 253) solid 1px;
+  box-shadow: 0px 12px 20px rgb(85, 84, 84);
+}
+
+.functions {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding-left: 150px;
+}
+
+.functions h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: rgb(95, 30, 156);
+  font-size: 35px;
+}
+
+.functions h3 {
+  margin: 20px 0px;
+  font-size: 20px;
+
+}
+
+.functions p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: lightslategray;
+}
+
+.tagline1 img {
+  padding: 0px 505px;
+  padding-top: 50px;
+}
+
+.tagline2 img {
+  padding: 0px 685px;
+  padding-top: 8px;
+
+}
+
+.video {
+  margin: 20px 0px;
+}
+
+.video a {
+  text-decoration: none;
+  margin-left: 605px;
+  border: 1px solid rgb(95, 30, 156);
+  border-radius: 100px;
+  padding: 10px 100px;
+  font-size: 17px;
+  color: rgb(95, 30, 156);
+}
+
+.video a:hover {
+  background-color: rgb(95, 30, 156);
+  color: white;
+}
+
+.description {
+  padding: 10px 0px;
+}
+
+.description {
+  text-align: center;
+  line-height: 28px;
+}
+
+#hastag {
+  color: rgb(95, 95, 237);
+  font-size: 17px;
+}
+
+.money_safe {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background: linear-gradient(rgb(182, 158, 204) 20%, rgb(115, 51, 174));
+  margin: 0px 170px;
+  margin-top: 50px;
+  padding: 50px 0px;
+  border-radius: 30px;
+  transform: translateY(120px)
+    /* z-index: 5; */
+
+}
+
+.imgage img {
+  padding-left: 73px;
+}
+
+.tagline3 {
+  color: white;
+  padding-right: 320px;
+}
+
+.tagline3 h1 {
+  font-size: 45px;
+  padding-bottom: 29px;
+
+}
+
+.tagline3 p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 50px;
+
+}
+
+#imgone {
+  margin-right: 30px;
+}
+
+.stores {
+  text-align: center;
+  background: linear-gradient(rgb(215, 202, 227)20%, white);
+  ;
+  /* z-index: 4; */
+
+
+}
+
+.stores h1 {
+  padding-top: 220px;
+  font-size: 45px;
+  color: rgb(95, 30, 156);
+  margin-bottom: 65px;
+
+}
+
+.stores a {
+  border: none;
+  padding: 20px 60px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: rgb(105, 176, 221);
+  color: white;
+}
+
+.website {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.bussiness {
+  margin-top: 130px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.content3 {
+  padding-right: 100px;
+}
+
+.content3 h1 {
+  font-size: 45px;
+  color: rgb(95, 30, 156);
+  margin-bottom: 40px;
+}
+
+.content3 p {
+  margin: 15px 0px 20px 0px;
+  font-size: 17px;
+  color: rgb(93, 90, 90);
+
+
+}
+
+.content3 a {
+  text-decoration: none;
+  color: rgb(95, 30, 156);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+#one {
+  margin-top: 50px;
+  font-size: 20px;
+  color: black;
+}
+
+.last_banner {
+  background-image: url("./city-game-background_7814-423.jpg");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.estimation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 110px 0px;
+  color: white;
+  font-size: 23px;
+}
+
+#Crore1 {
+  font-size: 50px;
+}
+
+#india {
+  font-size: 50px;
+}
+
+#crore2 {
+  font-size: 50px;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 23px;
+
+
+}
+
+.tag p {
+  padding-right: 100px;
+  font-size: 29px;
+
+}
+
+#btn1 {
+  padding: 10px 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(95, 30, 156);
+  border-radius: 20px
+}
+
+.arrow {
+
+  background-color: rgb(189, 161, 215);
+  border-radius: 20px;
+  padding: 8px;
+
+  position: fixed;
+  top: 87%;
+  left: 93%;
+}
